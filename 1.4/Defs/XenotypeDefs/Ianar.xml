@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>GegeXT_Ianar</defName>
+    <label>Ianar</label>
+    <description>Designed to be engineers, genies' delicate bones and natural aptitude with machines allow them to manipulate devices with remarkable precision. They are emotionally cold and can follow orders where others might panic. However, they are fragile, and their amplified nerve impulses make them easy to debilitate with relatively little pain. With so much of their brains dedicated to analyzing machines, they lack the neural hardware to analyze emotions, so they sometimes come off as socially inept. Their dead calm makes it even harder for them to relate to what they see as madly-hotheaded baseliner humans.\n\nGenies were engineered thousands of years ago by a long-disbanded space navy to hold engineering positions on large starships. Today, genies still serve as engineers in great cities and fleets, but many can also be found working as lawyers, pilots, and musicians. Some subsets have emerged, such as the Archetectual Geniar, and the intellectual Ieniar</description>
+    <descriptionShort>The Sleepless Ianar are great at Medical and Intellectual, and don't need sleep. Unlike most Genie sub-sets, they do have an immune system, albeit still very weak. The can digest raw food, and are immune to food poisioning. Alas, they need more food, and aren't immune to antibiotics.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Genie_1</iconPath>
+    <inheritable>false</inheritable>
+    <genes>
+      <li>VRE_Slow_Diseases</li>
+      <li>VRE_BlueBlood</li>
+      <li>Immunity_Weak</li>
+      <li>VRE_WoundHealing_VerySlow</li>
+      <li>VRE_Hemophiliac</li>
+      <li>MoveSpeed_VeryQuick</li>
+      <li>Mood_Sanguine</li>
+      <li>Aggression_DeadCalm</li>
+      <li>ViolenceDisabled</li>
+      <li>Neversleep</li>
+      <li>Delicate</li>
+      <li>Pain_Extra</li>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Body_Thin</li>
+      <li>StrongStomach</li>
+      <li>RobustDigestion</li>
+      <li>Learning_Fast</li>
+      <li>DarkVision</li>
+      <li>Instability_Mild</li>
+      <li>ElongatedFingers</li>
+      <li>VRE_ElongatedHead</li>
+      <li>Unstoppable</li>
+      <li>Tail_Smooth</li>
+      <li>AptitudeTerrible_Shooting</li>
+      <li>AptitudeTerrible_Melee</li>
+      <li>AptitudeTerrible_Construction</li>
+      <li>AptitudeTerrible_Mining</li>
+      <li>AptitudeTerrible_Cooking</li>
+      <li>AptitudeTerrible_Plants</li>
+      <li>AptitudeTerrible_Animals</li>
+      <li>AptitudePoor_Crafting</li>
+      <li>AptitudeTerrible_Artistic</li>
+      <li>AptitudeRemarkable_Medicine</li>
+      <li>AptitudeTerrible_Social</li>
+      <li>VRE_AptitudePhenomenal_Intellectual</li>
+      <li>VRE_Curiosity_Intellectual</li>
+      <li>AddictionResistant_VRE_Antibiotics</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

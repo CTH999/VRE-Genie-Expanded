@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/iconPath</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value>
+        <iconPath />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/iconPath</xpath>
+    <value>
+      <iconPath>UI/Icons/Xenotypes/Custom/Genie_1</iconPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/inheritable</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value>
+        <inheritable />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/inheritable</xpath>
+    <value>
+      <inheritable>false</inheritable>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/label</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value>
+        <label />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/label</xpath>
+    <value>
+      <label>Genie</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/description</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value>
+        <description />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/description</xpath>
+    <value>
+      <description>Designed to be engineers, genies' delicate bones and natural aptitude with machines allow them to manipulate devices with remarkable precision. They are emotionally cold and can follow orders where others might panic. However, they are fragile, and their amplified nerve impulses make them easy to debilitate with relatively little pain. With so much of their brains dedicated to analyzing machines, they lack the neural hardware to analyze emotions, so they sometimes come off as socially inept. Their dead calm makes it even harder for them to relate to what they see as madly-hotheaded baseliner humans.\n\nGenies were engineered thousands of years ago by a long-disbanded space navy to hold engineering positions on large starships. Today, genies still serve as engineers in great cities and fleets, but many can also be found working as lawyers, pilots, and musicians.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/descriptionShort</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value>
+        <descriptionShort />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/descriptionShort</xpath>
+    <value>
+      <descriptionShort>Designed to be engineers, genies have natural aptitude with machines, and are emotionally cold and calm. They are also fragile and vulnerable to pain. Focused on machines, they often come off as socially inept.</descriptionShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/genes</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value>
+        <genes />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/genes</xpath>
+    <value>
+      <genes>
+        <li>VRE_Slow_Diseases</li>
+        <li>VRE_Immunity_VeryWeak</li>
+        <li>VRE_BlueBlood</li>
+        <li>VRE_WoundHealing_VerySlow</li>
+        <li>VRE_Hemophiliac</li>
+        <li>Aggression_DeadCalm</li>
+        <li>MeleeDamage_Weak</li>
+        <li>Delicate</li>
+        <li>Pain_Extra</li>
+        <li>Hair_BaldOnly</li>
+        <li>Beard_NoBeardOnly</li>
+        <li>Body_Thin</li>
+        <li>ElongatedFingers</li>
+        <li>VRE_ElongatedHead</li>
+        <li>AptitudeTerrible_Melee</li>
+        <li>AptitudePoor_Plants</li>
+        <li>AptitudePoor_Animals</li>
+        <li>VRE_AptitudePhenomenal_Crafting</li>
+        <li>AptitudeTerrible_Social</li>
+        <li>AptitudeRemarkable_Intellectual</li>
+        <li>VRE_Curiosity_Intellectual</li>
+        <li>AddictionImmune_VRE_Antibiotics</li>
+      </genes>
+    </value>
+  </Operation>
+</Patch>

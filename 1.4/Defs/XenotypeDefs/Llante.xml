@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>GegeXT_Llante</defName>
+    <label>Llante</label>
+    <description>Designed to be engineers, genies' delicate bones and natural aptitude with machines allow them to manipulate devices with remarkable precision. They are emotionally cold and can follow orders where others might panic. However, they are fragile, and their amplified nerve impulses make them easy to debilitate with relatively little pain. With so much of their brains dedicated to analyzing machines, they lack the neural hardware to analyze emotions, so they sometimes come off as socially inept. Their dead calm makes it even harder for them to relate to what they see as madly-hotheaded baseliner humans.\n\nGenies were engineered thousands of years ago by a long-disbanded space navy to hold engineering positions on large starships. Today, genies still serve as engineers in great cities and fleets, but many can also be found working as lawyers, pilots, and musicians. Some subsets have emerged, such as the Archetectual Geniar, and the intellectual Ieniar</description>
+    <descriptionShort>The Llante were an attempt to make a reproducable Genie. Most of the negative skills were gone, and they could call upon other species as allies. However, they were geneticly unstable, were unable to produce any antibodies, and therefore required constant antibiotics. Against all odds though, they still survive to this day!</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Genie_1</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>AnimalWarcall</li>
+      <li>VRE_Immunity_VeryWeak</li>
+      <li>VRE_BlueBlood</li>
+      <li>VRE_WoundHealing_VerySlow</li>
+      <li>VRE_Hemophiliac</li>
+      <li>PsychicAbility_Deaf</li>
+      <li>PsychicBonding</li>
+      <li>Mood_Sanguine</li>
+      <li>MinTemp_SmallDecrease</li>
+      <li>MaxTemp_SmallIncrease</li>
+      <li>ToxResist_Total</li>
+      <li>ToxicEnvironmentResistance_Total</li>
+      <li>UVSensitivity_Mild</li>
+      <li>Aggression_DeadCalm</li>
+      <li>MeleeDamage_Weak</li>
+      <li>VerySleepy</li>
+      <li>Robust</li>
+      <li>Pain_Extra</li>
+      <li>Fertile</li>
+      <li>Hair_ShortOnly</li>
+      <li>Hair_LongOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Body_Standard</li>
+      <li>Body_Thin</li>
+      <li>Hair_InkBlack</li>
+      <li>Skin_SheerWhite</li>
+      <li>Learning_Fast</li>
+      <li>DarkVision</li>
+      <li>Instability_Major</li>
+      <li>ElongatedFingers</li>
+      <li>VRE_ElongatedHead</li>
+      <li>AptitudeRemarkable_Shooting</li>
+      <li>AptitudeStrong_Plants</li>
+      <li>AptitudeStrong_Animals</li>
+      <li>VRE_AptitudePhenomenal_Crafting</li>
+      <li>AptitudeStrong_Intellectual</li>
+      <li>ChemicalDependency_VRE_Antibiotics</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

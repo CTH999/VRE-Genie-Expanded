@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>GegeXT_Arch-Llante</defName>
+    <label>Arch-Llante</label>
+    <description>Designed to be engineers, genies' delicate bones and natural aptitude with machines allow them to manipulate devices with remarkable precision. They are emotionally cold and can follow orders where others might panic. However, they are fragile, and their amplified nerve impulses make them easy to debilitate with relatively little pain. With so much of their brains dedicated to analyzing machines, they lack the neural hardware to analyze emotions, so they sometimes come off as socially inept. Their dead calm makes it even harder for them to relate to what they see as madly-hotheaded baseliner humans.\n\nGenies were engineered thousands of years ago by a long-disbanded space navy to hold engineering positions on large starships. Today, genies still serve as engineers in great cities and fleets, but many can also be found working as lawyers, pilots, and musicians. Some subsets have emerged, such as the Archetectual Geniar, and the intellectual Ieniar</description>
+    <descriptionShort>Arch-Llanate's are rare. They only came into existance once, when an archotech observed a group of Llanate's without the necessary drugs. They took pitty on them, and used archotech to fix most of the issues. Of course, there is always a cost, and it is sometimes in blood...</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Genie_1</iconPath>
+    <inheritable>false</inheritable>
+    <genes>
+      <li>Ageless</li>
+      <li>ArchiteMetabolism</li>
+      <li>Deathless</li>
+      <li>XenogermReimplanter</li>
+      <li>DiseaseFree</li>
+      <li>PerfectImmunity</li>
+      <li>TotalHealing</li>
+      <li>AcidSpray</li>
+      <li>AnimalWarcall</li>
+      <li>Hemogenic</li>
+      <li>Bloodfeeder</li>
+      <li>Deathrest</li>
+      <li>LongjumpLegs</li>
+      <li>VRE_BlueBlood</li>
+      <li>WoundHealing_Slow</li>
+      <li>Superclotting</li>
+      <li>PsychicAbility_Dull</li>
+      <li>NakedSpeed</li>
+      <li>Mood_Sanguine</li>
+      <li>MinTemp_SmallIncrease</li>
+      <li>MaxTemp_SmallDecrease</li>
+      <li>UVSensitivity_Mild</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Neversleep</li>
+      <li>Robust</li>
+      <li>Sterile</li>
+      <li>Eyes_Gray</li>
+      <li>Hair_ShortOnly</li>
+      <li>Beard_Always</li>
+      <li>VoicePig</li>
+      <li>Body_Standard</li>
+      <li>Body_Thin</li>
+      <li>Hair_InkBlack</li>
+      <li>Skin_Blue</li>
+      <li>DarkVision</li>
+      <li>Hair_Grayless</li>
+      <li>ElongatedFingers</li>
+      <li>Furskin</li>
+      <li>Tail_Smooth</li>
+      <li>AptitudeRemarkable_Crafting</li>
+      <li>AptitudeRemarkable_Artistic</li>
+      <li>AptitudeRemarkable_Intellectual</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

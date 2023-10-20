@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla Races Expanded: Genies- Expanded</name>
+  <author>Gege, CTH2004, Alite</author>
+  <packageId>CTH.vreGeniesExpanded</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>Ever felt that Vanilla Races Expanded: Genies didin't get enough love, what with only having one xenotype and all? Well, let's fix that!</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+
+    <li>
+      <packageId>vanillaracesexpanded.genie</packageId>
+      <displayName>Vanilla Races Expanded - Genie</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072</steamWorkshopUrl>
+    </li>
+
+    <li>
+      <packageId>vanillaracesexpanded.customicons</packageId>
+      <displayName>Vanilla Races Expanded - Custom Icons</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2917311689</steamWorkshopUrl>
+    </li>
+
+  </modDependencies>
+  <loadAfter>
+    <li>edb.preparecarefully</li>
+    <li>vanillaracesexpanded.customicons</li>
+    <li>vanillaracesexpanded.genie</li>
+  </loadAfter>
+  <loadBefore>
+    <li>co.uk.epicguru.whatsthatmod</li>
+    <li>void.charactereditor</li>
+  </loadBefore>
+</ModMetaData>
