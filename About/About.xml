@@ -27,12 +27,12 @@
 
   </modDependencies>
   <loadAfter>
-    <li>edb.preparecarefully</li>
+    <li>void.charactereditor</li>
     <li>vanillaracesexpanded.customicons</li>
     <li>vanillaracesexpanded.genie</li>
   </loadAfter>
   <loadBefore>
     <li>co.uk.epicguru.whatsthatmod</li>
-    <li>void.charactereditor</li>
+    <li>edb.preparecarefully</li>
   </loadBefore>
 </ModMetaData>
